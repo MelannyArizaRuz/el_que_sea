@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f6d84f, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.studen {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    bottom: -18px; 
+    right: -120px;
+}
+
+.studen2 {
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    bottom: -18px; 
+    right: -130px;
+}
+
+.Cul {
+    width: 160px;
+    height: 75px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(50, 166, 243, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+}
+
+.logo {
+    font-size: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+
+    
+}
+
+h2 {
+    color: #0059ac;
+}
+
+.form-group {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0059ac;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+a {
+    background-color: #f6d84f;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
